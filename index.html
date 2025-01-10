@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Personal website of Ives (Peiyuan) He">
+  <meta name="keywords" content="Business Analytics, Data Science, Machine Learning, Projects">
+  <meta name="author" content="Ives (Peiyuan) He">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ives He | Personal Website</title>
+  
+  <!-- Optionally, Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    /* GLOBAL STYLES */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      color: #333;
+      background: #fafafa;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1, h2, h3, h4 {
+      margin-bottom: 1rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      max-width: 1000px;
+    }
+    /* NAVIGATION */
+    nav {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .navbar-brand {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .navbar-menu a {
+      margin-left: 20px;
+      font-weight: 500;
+    }
+    /* HERO SECTION */
+    .hero {
+      background: linear-gradient(140deg, #dcecfb, #f7f8fa);
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero .hero-photo {
+      max-width: 300px;
+      width: 80%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+    .hero .button {
+      display: inline-block;
+      background: #0077cc;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+    .hero .button:hover {
+      background: #005fa3;
+    }
+    /* SECTIONS */
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .content-block {
+      margin-bottom: 1.5rem;
+    }
+    .content-block h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .content-block ul {
+      margin-left: 1.2rem;
+      list-style: disc;
+      margin-bottom: 1rem;
+    }
+    .sub-list {
+      list-style: circle;
+      margin-left: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95rem;
+      color: #777;
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="navbar">
+      <div class="navbar-brand">Ives (Peiyuan) He</div>
+      <div class="navbar-menu">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#coursework">Coursework</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <!-- Replace "your_photo.jpg" with your actual photo name or hosted URL -->
+    <img src="Photo.jpg" alt="Personal Photo" class="hero-photo" />
+    <h1>Hello, I'm Ives (Peiyuan) He</h1>
+    <p>
+      I’m a forward-thinking data enthusiast weaving together analytical rigor 
+      and business acumen. Whether optimizing marketing pipelines or building 
+      machine learning solutions, I thrive on turning raw data into real-world impact. 
+      With a passion for continuous growth and collaboration, I’m eager to bring 
+      fresh ideas to the table and achieve meaningful results.
+    </p>
+    <a href="#contact" class="button">Get in Touch</a>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="container">
+      <p>
+        Currently pursuing an MS in Business Analytics at the University of Illinois Urbana-Champaign, 
+        with concentrations in Data Analytics in Finance and Information Technology & Control. 
+        My foundation in Finance from CUHK Shenzhen, paired with hands-on data analytics experience, 
+        has molded me into a strategic problem-solver who merges the art of storytelling with 
+        cutting-edge technologies. I thrive in dynamic environments where curiosity, creativity, 
+        and collaboration lead to innovative solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="container">
+      <div class="content-block">
+        <h3>University of Illinois Urbana-Champaign (2024.08 - 2025.05)</h3>
+        <p><strong>MS in Business Analytics</strong></p>
+        <p>Concentrations: Data Analytics in Finance & Information Technology & Control</p>
+      </div>
+      <div class="content-block">
+        <h3>Chinese University of Hong Kong, Shenzhen (2020.09 - 2024.05)</h3>
+        <p><strong>BBA in Finance & minor in Economics</strong></p>
+      </div>
+      <div class="content-block">
+        <h3>University of Chicago (Summer 2023)</h3>
+        <p><strong>Data and Policy Summer Scholar Program</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience">
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="container">
+      <div class="content-block">
+        <h3>Cneutral.io | Analyst | Practicum Project (2024.09–Present)</h3>
+        <ul>
+          <li>Developed a large-scale document ingestion pipeline (PDF chunking, vector indexing, multi-step Q&A) using LangChain & LlamaIndex.</li>
+          <li>Implemented iterative workflows with LangGraph state machines, enabling query rewrites, fallback mechanisms, and multi-turn interactions.</li>
+          <li>Optimized ESG-driven portfolio allocations, achieving 15% higher returns with lower carbon exposure.</li>
+          <li>Managed GitHub code integration and real-time dashboards for better transparency.</li>
+          <li>GitHub: 
+            <a href="https://github.com/PYHkkk/2024-Fall-Term/tree/main/BADM550%20Business%20Practicum/LLM" target="_blank">
+              CNeutral (BADM550) Repo
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h3>China Mobile | Intern | Marketing Division (2024.07–2024.08)</h3>
+        <ul>
+          <li>Analyzed a 5-million-user dataset with SQL and Python, boosting targeted marketing efficiency by 15%.</li>
+          <li>Developed anomaly detection models reducing fraudulent activities by 20%.</li>
+          <li>Led a team to build a churn prediction model (92% accuracy), cutting churn rate by 10%.</li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h3>Xiaohongshu | Intern | Investment Division (2024.02–2024.05)</h3>
+        <ul>
+          <li>Led a 10,000-participant sandbox gaming survey linking in-app engagement with player behaviors.</li>
+          <li>Developed SQL queries/Python scripts to analyze 10 brand metrics, identifying 7 high-potential targets.</li>
+          <li>Created real-time monitoring tools, enhancing data-driven investment decisions.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSEWORK SECTION -->
+  <section id="coursework">
+    <h2 class="section-title">Coursework</h2>
+    <div class="container">
+
+      <!-- BADM550: Final Project -->
+      <div class="content-block">
+        <h3>BADM550</h3>
+        <ul>
+          <li><strong>Final Project</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Designed a sophisticated LLM-based pipeline that segmented extensive PDF files into coherent chunks and indexed them for ESG-related retrieval, enhancing portfolio strategies by identifying real-time sustainability insights and enabling advanced question-answering on large unstructured data.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Utilized Python, LangChain, LlamaIndex, and Azure-based vector embeddings; integrated GitHub for version control and collaborated with JSON-based ESG datasets for improved portfolio decision-making.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Implemented chunk-level embeddings, iterative multi-turn query handling, and fallback state machines in LangGraph to refine user prompts, ensure accuracy, and streamline data ingestion flows under heavy file loads.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Achieved a 15% improvement in ESG-oriented investment returns by swiftly identifying relevant data, reducing research time, and enabling immediate Q&A capabilities on massive PDF corpora with minimal operational overhead.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- BADM554: 2 Projects -->
+      <div class="content-block">
+        <h3>BADM554: Enterprise Database Management</h3>
+        <ul>
+          <li><strong>Project 1</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Established a robust SQL-based architecture for Yelp reviews, check-ins, users, and businesses data, prioritizing memory-efficient chunk ingestion and reliable indexing to handle millions of rows without performance bottlenecks or data integrity issues.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Leveraged Python (pandas, SQLAlchemy) for initial data transformation, Azure SQL for scalable DB hosting, and GitHub for collaborative versioning and schema evolution throughout the development cycle.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Normalized nested JSON structures, merged tables by key IDs, and employed typed columns with strategic indexes on business IDs and user IDs, ensuring sub-second query times on large datasets under concurrent loads.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Achieved an 80% reduction in query latency, simplified data retrieval for analytics teams, and laid a solid foundation for advanced SQL operations like window functions and complex joins across various Yelp data endpoints.
+              </li>
+            </ul>
+          </li>
+          <li><strong>Project 2</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Explored advanced SQL analytics on the Yelp DB to reveal trending business categories, peak check-in times, and user engagement drivers, transforming raw logs into actionable insights for strategic marketing.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Primarily used complex SQL queries (CTEs, window functions, pivot/unpivot), Python scripts for data wrangling, and integrated dashboards for rapid result sharing within cross-functional teams.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Examined join-based aggregations, employed over-clause for partition-based computations, and utilized pivot transformations to restructure data, highlighting hourly check-in spikes and category performance trends.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Revealed high-traffic intervals (evenings/weekends), pinpointed top-performing restaurant types, and offered data-backed suggestions to refine promotional targeting, ultimately boosting user engagement metrics.
+              </li>
+            </ul>
+          </li>
+          <li><em>GitHub:</em>
+            <a href="https://github.com/PYHkkk/2024-Fall-Term/tree/main/BADM554%20Enterprise%20Database%20Management" target="_blank">
+              BADM554
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- BADM557: Final Project -->
+      <div class="content-block">
+        <h3>BADM557: Business Intelligence</h3>
+        <ul>
+          <li><strong>Final Project</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Analyzed over six million NYC Taxi trips to uncover fare patterns, locate high-surcharge areas, and identify passenger segment clusters for improved resource allocation and dynamic pricing strategies.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Employed Python (pandas, scikit-learn, matplotlib) for data ingestion and clustering, combined with SQL for initial dataset loading, and GitHub for project collaboration and version control.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Implemented K-Means and EM clustering on trip distance, fare components, and pickup times; validated outliers with IQR-based cutoffs; dissected surcharges and tips by time-of-day for actionable decision-making.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Identified premium-fare clusters averaging above $69, discovered peak surcharges in evening rush hours, and recommended data-driven driver dispatch strategies, fueling more efficient taxi operations citywide.
+              </li>
+            </ul>
+          </li>
+          <li><em>GitHub:</em>
+            <a href="https://github.com/PYHkkk/2024-Fall-Term/tree/main/BADM557%20Business%20Intelligence" target="_blank">
+              BADM557
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- BDI513: Final Project -->
+      <div class="content-block">
+        <h3>BDI513: Data Storytelling</h3>
+        <ul>
+          <li><strong>Final Project</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Investigated the 2024 U.S. election’s effect on tech stock performance, coupled with an NLP-based policy analysis (“Project 2025”), to gauge shifting sentiment on AI regulation, national security, and executive directives.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Utilized Python (pandas, altair/matplotlib) for event studies and data visualization, integrated Google Search Trends, and performed textual analysis with NLP libraries on policy documents.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Tracked candidate mentions, cross-referenced stock fluctuations in Magnificent Seven companies, extracted recurring AI, governance, and security themes from “Project 2025” using keyword extraction and topic modeling.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Showed correlation between election news peaks and short-term market surges, illuminated main regulatory concerns around AI, and provided a strategic narrative on how policy shifts can trigger corporate pivots.
+              </li>
+            </ul>
+          </li>
+          <li><em>GitHub:</em>
+            <a href="https://github.com/PYHkkk/2024-Fall-Term/tree/main/BDI513%20Data%20Storytelling" target="_blank">
+              BDI513
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- FIN550: 3 Projects -->
+      <div class="content-block">
+        <h3>FIN550: Big Data Analytics in Finance</h3>
+        <ul>
+          <li><strong>Final Project</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Built a full-fledged Random Forest system for real estate valuation, integrating advanced feature engineering, robust hyperparameter tuning, and thorough outlier checks, ultimately producing highly accurate property price estimates for large-scale usage.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Combined R (caret, randomForest) for model training, Python for data wrangling, Azure-based storage for large datasets, and GitHub for incremental iteration and version tracking across the pipeline.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Applied log-transformations on skewed variables, used iterative grid search for fine-tuning ntree/mtry, and validated model reliability with 5-fold cross-validation to ensure consistent performance across varied sample splits.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Successfully predicted prices on 10,000+ properties with minimal MSE, facilitating real-time property appraisals and empowering stakeholders to make data-driven buy/sell decisions with renewed confidence.
+              </li>
+            </ul>
+          </li>
+          <li><strong>Project 1</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Established a baseline Random Forest model focusing on feature importance, partial dependence plots, and basic cleansing measures to differentiate core drivers of property valuation from less relevant attributes.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Primarily R (randomForest, caret) for model experimentation, supplemented by Python (pandas) for data preprocessing and CSV handling, and GitHub for structured collaboration within a small research team.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Screened outliers beyond 3 IQR ranges, tested both log and non-log transformations, and used hold-out data splits to ensure the baseline model’s generalization capacity under normal market conditions.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Clarified which variables—like lot size and living area—held the most predictive power, prompting further feature engineering in subsequent phases and aligning model outputs more closely with real-world pricing trends.
+              </li>
+            </ul>
+          </li>
+          <li><strong>Project 2</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Enriched the baseline model with gradient boosting, ensembling Random Forest and GBM predictions to outperform single-model setups, ultimately refining real estate price accuracy under complex, multi-factor scenarios.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Utilized R (gbm, randomForest) to build ensemble pipelines, Python for automated data merges and performance logs, and GitHub for code review and parallel experiment tracking across teammates.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Created a stacking meta-learner to combine RF and GBM outputs, performed multiple cross-validation folds for precise MSE estimates, and integrated early stopping to avoid overfitting during GBM training.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Achieved an 8% lower MSE compared to single-model baselines, demonstrating ensemble advantages in capturing complex interactions among property features like neighborhood effects and historical transaction patterns.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <em>GitHub:</em>
+            <a href="https://github.com/PYHkkk/2024-Fall-Term/tree/main/FIN550%20Big%20Data%20Analytics%20in%20Finance" target="_blank">
+              FIN550
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- FIN553: 5 Projects -->
+      <div class="content-block">
+        <h3>FIN553: Machine Learning in Finance</h3>
+        <ul>
+          <li><strong>Project 1</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Investigated the Illinois Workplace Wellness Study by separating employees into treatment vs. control arms, applying linear regressions to gauge health spending changes, and confirming the random assignment’s integrity through pre-randomization outcome checks.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Employed Python (pandas, statsmodels) for regression analysis, integrated CSV-based claims data, and used GitHub for version control, ensuring robust tracking of transformations and final scripts.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Compared pre/post intervention data, included demographic covariates to isolate treatment effects, and verified no baseline imbalances that would bias the wellness program’s measured impact on healthcare costs.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Found modest yet significant spending reductions among the treatment group, demonstrating potential cost-saving benefits, though effects depended on demographic factors and adherence to screening protocols.
+              </li>
+            </ul>
+          </li>
+          <li><strong>Project 2</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Employed regression discontinuity designs around the Minimum Legal Driving Age (MLDA) to observe abrupt changes in mortality rates, focusing on all-cause vs. motor vehicle accident deaths near the age threshold.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Used Python’s stats libraries for parametric and non-parametric RD, leveraged local polynomial regressions, and documented results in GitHub with thorough bandwidth sensitivity analyses.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Separated data into intervals around the MLDA cutoff, estimated discontinuities by comparing mean outcomes just below and above the threshold, and tested multiple bandwidths for result robustness.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Identified a clear mortality jump in vehicle accidents immediately post-MLDA, validating the policy significance of restricting certain driving privileges to reduce fatal crash risks among new drivers.
+              </li>
+            </ul>
+          </li>
+          <li><strong>Project 3</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Explored the Stochastic Cake Eating problem by modeling consumption vs. saving choices with Sigmoid and neural-network-based policies, seeking to maximize utility over a 300-period horizon under random returns.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Leveraged Python (JAX, NumPy) for gradient-based optimization, stateful simulation of random returns, and GitHub collaboration for iterative refinements across multiple training runs.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Employed dynamic programming logic, backpropagation on consumption policies, and parameter tuning for neural networks to adapt consumption paths in response to evolving wealth distributions.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Revealed that adaptive consumption policies can outperform fixed-rate approaches under return volatility, indicating the benefits of real-time policy updates when future market states remain uncertain.
+              </li>
+            </ul>
+          </li>
+          <li><strong>Project 4</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Used a Monte Carlo MDP to evaluate two vaccine development strategies, “Always Invest” vs. “Never Invest,” across sequential drug phases, each with probabilistic success or failure outcomes.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Python-based random simulations, discount factor near 0.996 to reflect long-term gains, plus CSV logs for incremental state-value tracking, ensuring reproducible results posted in GitHub repos.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Simulated episodes from initial states, recorded returns, and applied first-visit Monte Carlo for policy evaluation; iterated thousands of runs to achieve stable estimates of expected net present value.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Showed “Always Invest” generally yields higher expected returns due to increased chances of reaching successful phases, though cost structures and risk preferences can tilt the balance under certain scenarios.
+              </li>
+            </ul>
+          </li>
+          <li><strong>Project 5</strong>
+            <ul class="sub-list">
+              <li>
+                <strong>Project Focus:</strong> 
+                Adopted Value Iteration and Policy Iteration methods to precisely identify optimal vaccine investment points, building on the prior Monte Carlo simulation but now relying on deterministic DP solutions for greater convergence speed.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> 
+                Python for matrix-based Bellman equations, structured transition probabilities in JSON, and GitHub for iterative commits, allowing easy rollback if policy updates produced unstable or divergent outcomes.
+              </li>
+              <li>
+                <strong>Methods:</strong> 
+                Used iterative backup equations to refine value estimates, performed policy evaluation by repeatedly solving the Bellman equation, and updated the policy to choose actions maximizing expected returns each step.
+              </li>
+              <li>
+                <strong>Results:</strong> 
+                Found a stable invest/do-not-invest threshold that outperformed naive strategies, ensuring minimal wasted expenditure in failing drug phases while maximizing final payoffs in promising ones.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <em>GitHub:</em>
+            <a href="https://github.com/PYHkkk/2024-Fall-Term/tree/main/FIN553%20Machine%20Learning%20in%20Finance" target="_blank">
+              FIN553
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION (Additional) -->
+  <section id="projects">
+    <h2 class="section-title">Other Projects & Leadership</h2>
+    <div class="container">
+      <div class="content-block">
+        <h3>Paris 2024 Olympics (Kaggle)</h3>
+        <ul>
+          <li>Built an interactive Folium map with IpyWidgets to trace the torch relay across 68 stages.</li>
+          <li>Analyzed 10,000+ athlete records & 120,000+ event entries, achieving 98% accuracy in gender classification.</li>
+          <li>See more: 
+            <a href="https://github.com/PYHkkk/Olympics/blob/main/Paris%202024.ipynb" target="_blank">
+              Paris 2024 Olympics Project
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content-block">
+        <h3>Shaw College Resident Student Association | President (2021.01–2023.05)</h3>
+        <ul>
+          <li>Coordinated monthly meetings for ~100 students, organized campus events & fundraising initiatives.</li>
+          <li>Launched wellness workshops, virtual graduation ceremonies, and orientation mixers.</li>
+          <li>Fostered a cohesive community, improving student satisfaction by addressing dorm-related issues.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2 class="section-title">Contact & Links</h2>
+    <div class="container">
+      <p>Email: <a href="mailto:hegetstheoffer@gmail.com">hegetstheoffer@gmail.com</a></p>
+      <p>Phone: <strong>(+1) 217-369-9813</strong></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com" target="_blank">LinkedIn Profile</a></p>
+      <p>GitHub: <a href="https://www.github.com" target="_blank">GitHub Profile</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Ives (Peiyuan) He. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
